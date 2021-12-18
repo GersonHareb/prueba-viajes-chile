@@ -26,13 +26,8 @@ p {
   height: 30px;
 }
 
-.navbar{
-    z-index: 2;
+
+.carousel img{
+    object-fit: cover;
+    object-position: top;
 }
-
-.carousel{
-  position: absolute;
-  top: 0;
-}
-
-
