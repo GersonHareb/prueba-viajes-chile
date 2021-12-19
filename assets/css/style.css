@@ -56,4 +56,8 @@ footer i{
     display: flex;
     flex-direction: column-reverse;
   }
+
+  footer h3{
+    font-size: 17px;
+  }
 }

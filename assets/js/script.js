@@ -1,6 +1,11 @@
 
-//mini script para cambiar clase bg al nav cuando haga scroll, no me gusto como quedan las letras todas piluchas, se mezcla con el texto
+
 $(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+
+
+
+  //mini script para cambiar clase bg al nav cuando haga scroll, no me gusto como quedan las letras todas piluchas, se mezcla con el texto
   var navbar = $(".navbar");
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
