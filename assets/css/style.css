@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
 
+/*mini reset y establecimiento de la fuente*/
 * {
   margin: 0;
   padding: 0;
@@ -7,24 +8,52 @@
   font-family: "Poppins", sans-serif;
 }
 
-
+/*principal*/
 body {
   background-color: #000;
 }
 
-.navbar {
-  z-index: 9999;
-}
-
-.navbar-brand img {
-  height: 20px;
-}
-
-.carousel img {
-  object-fit: cover;
-  object-position: top;
+section {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .line {
   height: 2px;
+}
+
+/*navbar*/
+.navbar-brand img {
+  height: 20px;
+}
+
+/*header*/
+.carousel img,
+.card img {
+  object-fit: cover;
+  object-position: top;
+}
+
+/*card section*/
+.card-text p {
+  font-size: 13px;
+}
+
+.card img {
+  height: 200px;
+}
+
+/*footer*/
+footer i{
+  color: #fff;
+}
+
+/*codigo para voltear icono de "quienes somos" en pantallas mas pequenas*/
+@media (max-width: 768px) {
+  .turn {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

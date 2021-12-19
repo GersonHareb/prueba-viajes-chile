@@ -26,6 +26,7 @@
     <title>Hello, world!</title>
   </head>
   <body class="text-white">
+    <!--NAVEGACION DEL SITIO-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#"
@@ -61,6 +62,7 @@
       </div>
     </nav>
 
+    <!--HEADER CARRUSEL-->
     <header>
       <div
         id="carouselExampleFade"
@@ -111,16 +113,17 @@
       </div>
     </header>
 
-    <section id="somos">
-      <div class="container vh-80">
+    <!--PRESENTACION CON GRILLAS-->
+    <section id="presentacion">
+      <div class="container">
         <h2 class="pt-5 pb-2 text-center">Quienes somos?</h2>
-        <hr class="line bg-primary mb-4" />
+        <hr class="line bg-info mb-4" />
         <div class="row pb-5">
-          <div class="col-12 col-md-4">
-            <div class="text-center bg-primary mb-3 py-2">
+          <div class="col-12 col-md-4 my-3">
+            <div class="text-center bg-info mb-3 py-2">
               <i class="fas fa-paper-plane fa-2x"></i>
             </div>
-            <p>
+            <p class="text-justify">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Veritatis atque libero laudantium quo nesciunt enim nam voluptatem
               debitis vel sequi quam ducimus nihil placeat magnam dolorum, velit
@@ -131,8 +134,8 @@
               aut quia. Esse!
             </p>
           </div>
-          <div class="col-12 col-md-4">
-            <p>
+          <div class="col-12 col-md-4 my-3 turn">
+            <p class="text-justify">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Veritatis atque libero laudantium quo nesciunt enim nam voluptatem
               debitis vel sequi quam ducimus nihil placeat magnam dolorum, velit
@@ -142,15 +145,15 @@
               ab velit saepe voluptates consequuntur, illo aspernatur facilis
               aut quia. Esse!
             </p>
-            <div class="text-center bg-primary mb-md-3 py-2">
+            <div class="text-center bg-info mb-3 py-2">
               <i class="fab fa-pagelines fa-2x"></i>
             </div>
           </div>
-          <div class="col-12 col-md-4">
-            <div class="text-center bg-primary mb-3 py-2">
+          <div class="col-12 col-md-4 my-3">
+            <div class="text-center bg-info mb-3 py-2">
               <i class="fas fa-map-marker-alt fa-2x"></i>
             </div>
-            <p>
+            <p class="text-justify">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Veritatis atque libero laudantium quo nesciunt enim nam voluptatem
               debitis vel sequi quam ducimus nihil placeat magnam dolorum, velit
@@ -164,7 +167,92 @@
         </div>
       </div>
     </section>
-    <section></section>
+
+    <!--CARD DECK-->
+    <section id="destacados">
+      <div class="container">
+        <h2 class="pb-2 text-center">Quienes somos?</h2>
+        <hr class="line bg-info mb-4" />
+        <div class="card-deck">
+          <div class="card bg-info">
+            <img class="card-img-top" src="assets/img/card1.jpg" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">
+                Lorem ipsum dolor sit amet consectetur.
+              </h4>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum
+                quasi deserunt dicta labore, hic molestias sunt voluptate veniam
+                quas dolorem?
+              </p>
+            </div>
+          </div>
+          <div class="card bg-info">
+            <img class="card-img-top" src="assets/img/card2.jpg" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">Title</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Asperiores molestiae optio, nihil repellat ea atque tempora.
+              </p>
+            </div>
+          </div>
+          <div class="card bg-info">
+            <img class="card-img-top" src="assets/img/card3.jpg" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">Title</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                neque doloribus minima voluptas aliquid ut?
+              </p>
+            </div>
+          </div>
+          <div class="card bg-info">
+            <img class="card-img-top" src="assets/img/card4.jpg" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">Title</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                odio fugiat odit. Recusandae omnis maiores rerum illo?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--FORMULARIO CON TYPEFORM-->
+    <section id="formulario">
+      <div class="container">
+        <div
+          data-tf-widget="JGaz5snw"
+          data-tf-iframe-props="title=Contact Form (copy)"
+          style="width: 100%; height: 400px"
+        ></div>
+        <script src="//embed.typeform.com/next/embed.js"></script>
+      </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="bg-info">
+      <div class="container d-flex justify-content-around align-items-center">
+        <h3 class="my-auto py-2 font-weight-bold">VIAJES CHILE</h3>
+        <div class="socials float-right">
+          <a href="https://github.com/" class="mx-1"
+            ><i class="fab fa-github-square fa-2x"></i
+          ></a>
+          <a href="https://github.com/" class="mx-1"
+            ><i class="fab fa-linkedin fa-2x"></i
+          ></a>
+          <a href="https://github.com/" class="mx-1"
+            ><i class="fab fa-twitter-square fa-2x"></i
+          ></a>
+          <a href="https://github.com/" class="mx-1"
+            ><i class="fab fa-facebook-square fa-2x"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -176,6 +264,7 @@
       integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
       crossorigin="anonymous"
     ></script>
+    <script src="//embed.typeform.com/next/embed.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
